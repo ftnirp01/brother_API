@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Work Sans', sans-serif;
+  margin-top: 0; }
+
+
+a {
+	text-decoration: none;
+  color: white;
+  transition: all .3s ease-in-out; }
+
+a:focus,
+button:focus {
+  outline: none; }
+
+.btn:hover,
+a:hover {
+  text-decoration: none;
+  color: pink; }
+
+.a-title{
+	font-size: 30px; 
+	color: rgb(83,153,166);
+}
+
+.sidebar {
+height: 100%;
+width: 270px;
+position: absolute;
+left: 0;
+top: 0;
+padding-top: 40px;
+background-color: black;
+}
+
+.sidebar div {
+padding: 8px;
+font-size: 15px;
+display: block;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.body-title {
+margin-left: 270px;
+font-size: 18px;
+}
+
+.body-contact{
+	font-size: 15px;
+}
+
+.body-text {
+margin-left: 1000px;
+font-size: 18px;
+}
+
+.body-index{
+	margin-left: 270px;
+}
