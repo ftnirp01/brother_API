@@ -34,10 +34,20 @@ a:hover {
 
 .a-title{
 	font-size: 30px; 
-	color: rgb(83,153,166);
+	color: white;
 }
 
 .sidebar {
+height: 255%;
+width: 270px;
+position: absolute;
+left: 0;
+top: 0;
+padding-top: 40px;
+background-color: black;
+}
+
+.sidebar-contact {
 height: 100%;
 width: 270px;
 position: absolute;
@@ -47,6 +57,10 @@ padding-top: 40px;
 background-color: black;
 }
 
+
+
+
+
 .sidebar div {
 padding: 8px;
 font-size: 15px;
@@ -54,6 +68,22 @@ display: block;
 margin-left: 10px;
 margin-right: 10px;
 }
+
+
+.sidebar-contact div {
+padding: 8px;
+font-size: 15px;
+display: block;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+
+
+
+
+
+
 
 .body-title {
 margin-left: 270px;
