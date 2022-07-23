@@ -100,6 +100,13 @@
 			<version>2.6.2</version>
 		</dependency>
 
+		<!-- thymeleaf [spring boot 에서는 <%%> 보다는 타임리프 사용을 권장함] -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+
+
 
 	</dependencies>
 

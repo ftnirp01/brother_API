@@ -12,4 +12,27 @@ public class MainController {
 	}
 	
 	
+	@RequestMapping("/about")
+	public String showAbout() {
+		return "about";
+	}
+	
+	
+	@RequestMapping("/team")
+	public String showTeam() {
+		return "team";
+	}
+	
+	
+	@RequestMapping("/works")
+	public String showWorks() {
+		return "works";
+	}
+	
+	
+	@RequestMapping("/news")
+	public String showNews() {
+		return "news";
+	}
+	
 }
