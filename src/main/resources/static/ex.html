@@ -8,8 +8,23 @@
 <body>
 
 
-<div th:replace="fragment/header :: header"></div>
+<div th:replace="~{fragments/header :: header}"></div>
 gd
+<div th:replace= "~{templates/fragments/exheader :: header}"></div>
+
+
+<div th:replace= "fragments/exheader :: header"></div>
+
+
+<div th:replace = "fragments/exheader.html :: header"></div>
+
+
+<div th:replace = "static/fragments/exheader :: header2"></div>
+
+
+<div th:replace = "fragments/exheader :: header3"></div>
+
+<header th:replace ="fragments/exheader :: header3"></header>
 
 </body>
 </html>
