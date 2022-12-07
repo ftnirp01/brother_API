@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang = "ko" xmlns:th="http://www.thymeleaf.org">
-<head>
+<head th:fragment= "header-head">
 <link rel = "stylesheet" href = "css/style.css">
 <meta charset="UTF-8">
-<title>header</title>
+<title>(주)형제건축</title>
 </head>
 <body>
 
-<div class="sidebar" th:fragment="header">
+<div class="sidebar" th:fragment="header-body">
 
 <div style="margin-left: 60px;"><a class ="a-title" href = "/" ><h1>兄弟</h1></a></div>
 
@@ -22,7 +22,7 @@
 
 <br><br>
 
-<div><a href = "about.html">Contact</a></div>
+<div><a href = "conact.html">Contact</a></div>
 
 <br>
 <br><br>

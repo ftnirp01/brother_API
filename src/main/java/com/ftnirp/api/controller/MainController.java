@@ -1,9 +1,10 @@
 package com.ftnirp.api.controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+
+@Controller
 public class MainController {
 
 	@RequestMapping("map")
@@ -12,27 +13,33 @@ public class MainController {
 	}
 	
 	
-	@RequestMapping("/about")
+	@RequestMapping("about")
 	public String showAbout() {
 		return "about";
 	}
 	
 	
-	@RequestMapping("/team")
+	@RequestMapping("team")
 	public String showTeam() {
 		return "team";
 	}
 	
 	
-	@RequestMapping("/works")
+	@RequestMapping("works")
 	public String showWorks() {
 		return "works";
 	}
 	
 	
-	@RequestMapping("/news")
+	@RequestMapping("news")
 	public String showNews() {
 		return "news";
 	}
+
+	@RequestMapping("ex")
+	public String showEx(){
+		return "ex";
+	}
+	
 	
 }
